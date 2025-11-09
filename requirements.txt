@@ -1,0 +1,15 @@
+# Minimal requirements for training and evaluating the Food-101 baseline
+torch
+torchvision
+numpy
+Pillow
+matplotlib
+tqdm
+scikit-learn
+pandas
+opencv-python
+albumentations
+timm
+ultralytics
+
+# Optional: add versions as needed, e.g., torch==1.13.1+cu116

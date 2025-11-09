@@ -1,3 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Model weights / large artifacts
+*.pth
+*.pt
+best_food_model.pth
+yolov8n.pt
+
+# Dataset images (if you prefer not to commit large image folders)
+/data/**/images/
+/archive/**/images/
+
+# Python test / packaging
+.pytest_cache/
+build/
+dist/
 .DS_Store
 __pycache__/
 
